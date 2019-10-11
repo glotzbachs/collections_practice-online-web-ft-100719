@@ -22,6 +22,9 @@ def kesha_maker(array)
   array.each {|index| "$+#{array[index]}"}
 end
 
+def find_a(array)
+  array.start_with?
+
 
 #ADVANCED SWAP
 # def swap_elements_from_to(array,index,destination_index)
