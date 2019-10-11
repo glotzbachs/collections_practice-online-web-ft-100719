@@ -42,7 +42,7 @@ def add_s (array)
     if word=="feet"
       word==word
     else
-      word= "#{word}+ s"
+      word= "#{word}s"
     end
   }
 end
