@@ -40,7 +40,7 @@ end
 def add_s (array)
   array.map {|word|
     if word=="feet"
-      word==word
+      word=word
     else
       word= "#{word}s"
     end
