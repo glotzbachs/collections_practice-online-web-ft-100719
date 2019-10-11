@@ -38,7 +38,9 @@ def add_s (array)
       array[index]=array[index]
     else
       array<< "s"
+    end
   }
+end
 #ADVANCED SWAP
 # def swap_elements_from_to(array,index,destination_index)
 #   array[index],array[destination_index] = array[destination_index],array[index]
