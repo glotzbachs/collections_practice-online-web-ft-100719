@@ -22,10 +22,9 @@ end
 
 def kesha_maker(array)
   array.map { |word|
-  final=[]
     words= word.chars
   words[2]= "$"
-    final<< words.join
+    words.join
   }
 end
 
