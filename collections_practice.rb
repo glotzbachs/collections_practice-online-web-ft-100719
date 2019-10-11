@@ -18,8 +18,6 @@ def reverse_array(array)
   array.reverse
 end
 
-
-
 def kesha_maker(array)
   array.map { |word|
     words= word.chars
@@ -45,6 +43,8 @@ def add_s (array)
     end
   }
 end
+
+
 #ADVANCED SWAP
 # def swap_elements_from_to(array,index,destination_index)
 #   array[index],array[destination_index] = array[destination_index],array[index]
