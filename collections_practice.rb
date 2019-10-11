@@ -37,7 +37,7 @@ def add_s (array)
     if array[index]== "feet"
       array[index]=array[index]
     else
-      array<< "s"
+      array[index]= array[index] + "s"
     end
   }
   array
