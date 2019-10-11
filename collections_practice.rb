@@ -27,7 +27,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.each {|num| sum+=num}
+  array.inject(0) {|sum,x| sum+x}
 end
 
 #ADVANCED SWAP
