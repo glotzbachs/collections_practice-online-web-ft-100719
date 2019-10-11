@@ -18,6 +18,8 @@ def reverse_array(array)
   array.reverse
 end
 
+
+
 def kesha_maker(array)
   array.each {|index| "$+#{array[index]}"}
 end
@@ -30,6 +32,13 @@ def sum_array(array)
   array.inject(0) {|sum,x| sum+x}
 end
 
+def add_s (array)
+  array.each {|array,index|
+    if array[index]==feet
+      array[index]=array[index]
+    else
+      array<< "s"
+  }
 #ADVANCED SWAP
 # def swap_elements_from_to(array,index,destination_index)
 #   array[index],array[destination_index] = array[destination_index],array[index]
