@@ -21,7 +21,7 @@ end
 
 
 def kesha_maker(array)
-  array.each { |word|
+  array.map { |word|
   final=[]
     words= word.chars
   words[3]= "$"
