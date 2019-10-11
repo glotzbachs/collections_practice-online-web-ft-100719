@@ -34,7 +34,7 @@ end
 
 def add_s (array)
   array.each {|array,index|
-    if array[index]==feet
+    if array[index]== "feet"
       array[index]=array[index]
     else
       array<< "s"
