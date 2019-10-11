@@ -26,6 +26,10 @@ def find_a(array)
   array.each {|index| array[index].start_with?("a")}
 end
 
+def sum_array(array)
+  array.each {|num| sum+=num}
+end
+
 #ADVANCED SWAP
 # def swap_elements_from_to(array,index,destination_index)
 #   array[index],array[destination_index] = array[destination_index],array[index]
