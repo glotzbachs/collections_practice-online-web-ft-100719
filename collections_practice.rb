@@ -38,7 +38,7 @@ def sum_array(array)
 end
 
 def add_s (array)
-  array.each {|word|
+  array.map {|word|
     if word=="feet"
       word==word
     else
