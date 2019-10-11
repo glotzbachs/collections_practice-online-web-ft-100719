@@ -38,11 +38,11 @@ def sum_array(array)
 end
 
 def add_s (array)
-  array.each {|array,index|
-    if array[index]== "feet"
-      array[index]=array[index]
+  array.each {|word|
+    if word=="feet"
+      word==word
     else
-      array[index]= "#{array[index]} + s"
+      word= "#{array[index]} + s"
     end
   }
   array
