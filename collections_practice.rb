@@ -21,14 +21,13 @@ end
 
 
 def kesha_maker(array)
+  array.each { |word|
   words=[]
   final=[]
-  array.each { |word|
     words<< word.chars
   words[3]="$"
     final<< words.join
   }
-  
 end
 
 def find_a(array)
