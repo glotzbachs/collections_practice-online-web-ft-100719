@@ -24,7 +24,7 @@ end
 
 def find_a(array)
  a=[]
- a<< array.find {|word| word.start_with?("a")}
+ a<< array.find_all {|word| word.start_with?("a")}
 end
 
 def sum_array(array)
