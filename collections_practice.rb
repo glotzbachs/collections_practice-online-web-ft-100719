@@ -40,6 +40,7 @@ def add_s (array)
       array<< "s"
     end
   }
+  array
 end
 #ADVANCED SWAP
 # def swap_elements_from_to(array,index,destination_index)
