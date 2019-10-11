@@ -12,7 +12,6 @@ end
 
 def swap_elements (array)
   # array[1], array[2] = array[2], array[1]
-  array.swap(1,2)
 end
 
 #ADVANCED SWAP
