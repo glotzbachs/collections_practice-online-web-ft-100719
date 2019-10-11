@@ -25,7 +25,7 @@ def kesha_maker(array)
   words=[]
   final=[]
     words<< word.chars
-  words[3]="$"
+  words[3]= "$"
     final<< words.join
   }
 end
